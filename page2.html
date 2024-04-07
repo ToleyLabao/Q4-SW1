@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, intial-scale=1">
+
+        <!--Bootstrap-->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+
+        <!--GFonts-->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Grape+Nuts&family=Playpen+Sans:wght@400;500&display=swap" rel="stylesheet">
+        <title>Seatwork 1</title>
+
+        <style type="text/css">
+
+            /*====Font Styling====*/
+            body  {
+                  background-color:#B1EDE8;
+                  font-family:Comic Sans MS;
+                  font-size: 100%;
+                  margin: 2em 10px;
+                  line-height:1;
+                  }
+
+            mark {
+                 background-color:#76E7CD
+                 }
+
+        </style>
+
+    </head>
+
+    <body>
+
+    <center><div class="container">
+        <div>
+            <h2 id="title" class="mb-4 p-3"></h2>
+            <h5 id="text"></h5><br/>
+            <p id="currency"></p><br/>
+
+            <img src="https://static-00.iconduck.com/assets.00/money-bag-emoji-1024x1024-trb67t5t.png" width="300" height="300" class="picture" alt="money">
+        </div><br/><br/>
+
+            <script>
+                document.getElementById("title").innerHTML = "Money Made Easy";
+                document.getElementById("text").innerHTML = "This is <mark> $6.05 </mark>";
+                document.getElementById("currency").innerHTML = "⬇️ Check below for currency conversion ⬇️";
+            </script>
+
+        <div class="buttons">
+            <a href="index.html" class="btn btn-info">₱ Peso</a>
+            <a href="page3.html" class="btn btn-info">¥ Yen</a>
+        </div>
+    </div></center>
+
+    </body>
+</html>
