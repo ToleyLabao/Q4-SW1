@@ -46,7 +46,8 @@
 
             <script>
                 document.getElementById("title").innerHTML = "Money Made Easy";
-                document.getElementById("text").innerHTML = "This is <mark> $6.05 </mark>";
+                const dollars = 100 / 56.59;
+                document.getElementById("text").innerHTML = "This is <mark>$" + dollars.toString() + "</mark>"
                 document.getElementById("currency").innerHTML = "⬇️ Check below for currency conversion ⬇️";
             </script>
 
